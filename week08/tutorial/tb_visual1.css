@@ -6,8 +6,8 @@
    Tutorial Case
    
    Visual Style Sheet for Tree and Book Family Home Page
-   Author: 
-   Date:   
+   Author: Scott Cordle
+   Date:   08/14/2019
    
    Filename: tb_visual1.css
 
@@ -15,7 +15,22 @@
 
 
 /* Figure Box Styles */
+figure {
+   margin: 20px auto 0px;
+}
 
+figure img {
+   display: block;
+   width: 100%;
+}
+
+figure figcaption {
+   background-color: white;
+   font-family: 'Palatino Linotype', Palatino, 'Times New Roman', serif;
+   font-style: italic;
+   padding: 10px 0;
+   text-align: center;
+}
 
 
 
