@@ -15,7 +15,7 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color:#abbf7b;
-    color: #fefce8;
+    color: #301f0d;
     width: 80%;
     margin: auto;
     padding: 0px;
@@ -37,7 +37,7 @@ nav {
 }
 
 section {
-    background-color: #936a4a;
+    background-color: #FFF;
     width: 62%;
     float: left;
     margin: 15px;
@@ -78,4 +78,4 @@ web {
 }
 
 /*  colors of logo c9df91 (lt), abbf7b (md), 006400 (dk) 
-    accents, 301f0d, f5ff5f, */
+    accents: 301f0d, f5ff5f, */
