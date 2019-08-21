@@ -1,6 +1,6 @@
 /**************************************
     Name:           Scott Cordle
-    Date:           01/24/2019
+    Date:           08/21/2019
     Description:    stylesheet for index.html
     Resources:
 
@@ -9,7 +9,7 @@
 **************************************/
 
 html {
-    background-color: #c84127;
+    background-color: #006400;
 }
 
 body {
@@ -22,8 +22,8 @@ body {
 }
 
 header, footer {
-    background-color: #3d2117;
-    color: #fefce8;
+    background-color: #c9df91;
+    color: #006400;
     text-align: center;
     clear: left;
 }
@@ -49,10 +49,10 @@ aside {
     margin: 15px;
 }
 
-h3 {
-    color: #67c5c2;
-    letter-spacing: .5em;
-    background-color: #3d2117;
+header h1, h3 {
+    color: #006400;
+    letter-spacing: .25em;
+    background-color: #c9df91;
     line-height: 2em;
     margin: 0px -15px;
     text-indent: .5em;
@@ -68,3 +68,5 @@ web {
   color: #d5a253; 
   color: #301f0d, #b85750, #c84127, #67c5c2, #3d2117, #fefce8
 }
+
+/* colors of logo c9df91 (lt), abbf7b (md), 006400 (dk) */
