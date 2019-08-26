@@ -9,73 +9,86 @@
 **************************************/
 
 html {
-    background-color: #006400;
+  background-color: #006400;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:#abbf7b;
-    color: #301f0d;
-    width: 80%;
-    margin: auto;
-    padding: 0px;
-    /* from previous site:
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #abbf7b;
+  color: #301f0d;
+  width: 80%;
+  margin: auto;
+  padding: 0px;
+  /* from previous site:
     background-color: #b5cf6b; 
     color: #003100 */
 }
 
-header, footer {
-    background-color: #c9df91;
-    color: #006400;
-    text-align: center;
-    clear: left;
+header,
+footer {
+  background-color: #c9df91;
+  color: #006400;
+  text-align: center;
+  clear: left;
 }
 
 nav {
-    background-color: #abbf7b;
-    color: #006400;
+  background-color: #abbf7b;
+  color: #006400;
+}
+
+nav ul li a:visited,
+nav ul li a:link {
+  color: #3d2117;
+}
+
+nav ul li a:hover,
+nav ul li a:active
+ {
+  color: #006400;
 }
 
 section {
-    background-color: #FFF;
-    width: 62%;
-    float: left;
-    margin: 15px;
+  background-color: #fff;
+  width: 62%;
+  float: left;
+  margin: 15px;
 }
 
 section article img {
-    float: left;
-    margin: 0px 10px 10px -15px;
-    width: 172.6px;
-    height: 231.6px;
+  float: left;
+  margin: 0px 10px 10px -15px;
+  width: 172.6px;
+  height: 231.6px;
 }
 
 aside {
-    background-color: #936a4a;
-    width: 32%;
-    float: right;
-    margin: 15px;
+  background-color: #936a4a;
+  width: 32%;
+  float: right;
+  margin: 15px;
 }
 
-header h1, h3 {
-    color: #006400;
-    letter-spacing: .25em;
-    background-color: #c9df91;
-    line-height: 2em;
-    margin: 0px -15px;
-    text-indent: .5em;
+header h1,
+h3 {
+  color: #006400;
+  letter-spacing: 0.25em;
+  background-color: #c9df91;
+  line-height: 2em;
+  margin: 0px -15px;
+  text-indent: 0.5em;
 }
 
-footer p{
-    line-height: 2.5em;
-    margin: 10px;
+footer p {
+  line-height: 2.5em;
+  margin: 10px;
 }
 
 web {
-  color: #936a4a; 
-  color: #f5ff5f; 
-  color: #d5a253; 
-  color: #301f0d, #b85750, #c84127, #67c5c2, #3d2117, #fefce8
+  color: #936a4a;
+  color: #f5ff5f;
+  color: #d5a253;
+  color: #301f0d, #b85750, #c84127, #67c5c2, #3d2117, #fefce8;
 }
 
 /*  colors of logo c9df91 (lt), abbf7b (md), 006400 (dk) 
