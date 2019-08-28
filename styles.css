@@ -43,19 +43,21 @@ h3 {
 }
 
 nav {
-  background-color: #f5ff5f;
+  background-color: #e1e78e;
   color: #003366;
 }
 
-nav ul li a:visited,
-nav ul li a:link {
-  color: #3d2117;
+a:visited,
+a:link {
+  color: #336699;
 }
 
-nav ul li a:hover,
-nav ul li a:active
+a:hover,
+a:active
  {
-  color: #006400;
+  color: #e95348;
+  /* background-color: #e1e78e; */
+  text-decoration: none;
 }
 
 section {
@@ -89,7 +91,7 @@ web {
   color: #936a4a;
   color: #f5ff5f;
   color: #d5a253;
-  color: #301f0d, #b85750, #c84127, #67c5c2, #3d2117, #fefce8;
+  color: #301f0d, #e95348, #c84127, #67c5c2, #3d2117, #fefce8;
 }
 
 /*  colors of logo c9df91 (lt), abbf7b (md), 006400 (dk) 
