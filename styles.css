@@ -47,16 +47,16 @@ nav {
   color: #003366;
 }
 
-a:visited,
+/* a:visited,
 a:link {
   color: #336699;
-}
+} */
 
 a:hover,
 a:active
  {
   color: #e95348;
-  /* background-color: #e1e78e; */
+  font-weight: bold;
   text-decoration: none;
 }
 
