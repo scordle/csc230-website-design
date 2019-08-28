@@ -1,0 +1,125 @@
+/**************************************
+	Name:			Scott Cordle
+	Date:			08/03/2016
+	Description:	Stylesheet for my index.htm
+	
+	Files:	index.htm
+**************************************/
+
+/******************
+	Styles for basic HTML elements
+******************/
+
+body {
+	background-color: #CCCCCC; 
+	color: #000000; 
+	font-family: Arial, san-serif;
+	/* width: 80%;
+	margin: auto;	 */
+}
+
+h1 { 
+	/* background-color: #CCDDEE; */
+	color: #003399;
+	text-align: center;	
+}
+
+h2 { 
+	/* background-color: #AABBCC; */
+	color: #003399; 
+	text-align: center;
+	/* margin: 0px;
+	padding: 0px; */
+}
+
+a {
+	color: #F29251;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #012345;/* rgb(156, 70, 12); */
+}
+
+a:hover {
+	color: #012345;
+}
+
+h3 {
+	background-color: #012345;
+	color: #CCDDEE;
+	/* margin: 0px;
+	padding: 0px; */
+}
+
+/******************
+	Styles for HTML5 structural elements
+******************/
+
+header {
+	background-color: #F29251;
+	/* padding: 15px;
+	margin: 0px; */
+}
+
+section {
+	background: #99CCCC; 
+	/* padding: 15px; */
+}
+
+section h1, h2, h3 {
+	text-align: center;
+}
+
+/* section img {
+	float: right;
+	clear: right;
+	width: 45%;
+	margin: 0px;
+	padding: 0px;
+} */
+
+section ol li  {
+	color: #012345;
+}
+
+/* article {
+	width: 55%;
+	padding-right: 10px;
+} */
+
+/* aside{
+	float: right;
+	clear: right;
+	width: 45%;
+	margin-top: 10px; 
+} */
+
+aside ul li {
+	list-style-type: none;
+	/* margin: 0px;
+	padding: 0px; */
+}
+
+footer {
+	background-color: #F29251;
+	/* padding: 5px;
+	margin: 0px; */
+}
+
+footer address {
+	color: #012345;
+	text-align: center;
+}
+
+
+/******************
+	Styles for IDs
+******************/
+
+/******************
+	Styles for classes
+******************/
+
+
+
+
+
+
