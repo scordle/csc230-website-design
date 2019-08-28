@@ -9,13 +9,13 @@
 **************************************/
 
 html {
-  background-color: #006400;
+  background-color: #003366;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #abbf7b;
-  color: #301f0d;
+  background-color: #336699;
+  /* color: #301f0d; */
   width: 80%;
   margin: auto;
   padding: 0px;
@@ -26,15 +26,25 @@ body {
 
 header,
 footer {
-  background-color: #c9df91;
-  color: #006400;
+  background-color: #336699;
+  /* color: #336699; */
   text-align: center;
   clear: left;
 }
 
+header h1,
+h3 {
+  color: #FFFFFF;
+  letter-spacing: 0.25em;
+  background-color: #336699;
+  line-height: 2em;
+  margin: 0px -15px;
+  text-indent: 0.5em;
+}
+
 nav {
-  background-color: #abbf7b;
-  color: #006400;
+  background-color: #f5ff5f;
+  color: #003366;
 }
 
 nav ul li a:visited,
@@ -69,19 +79,10 @@ aside {
   margin: 15px;
 }
 
-header h1,
-h3 {
-  color: #006400;
-  letter-spacing: 0.25em;
-  background-color: #c9df91;
-  line-height: 2em;
-  margin: 0px -15px;
-  text-indent: 0.5em;
-}
-
 footer p {
   line-height: 2.5em;
   margin: 10px;
+  color: #FFFFFF;
 }
 
 web {
